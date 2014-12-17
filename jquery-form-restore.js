@@ -48,7 +48,7 @@
 			}
 		});
 
-		$.each(radios, function (name, value) {
+		$.each(radios, function (name) {
 			values.push({
 				name: name,
 				value: false
