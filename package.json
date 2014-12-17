@@ -1,6 +1,6 @@
 {
   "name": "jquery-form-restore",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get and restore form values (event checkbox checked state) with jquery",
   "main": "jquery-form-restore.js",
   "directories": {
