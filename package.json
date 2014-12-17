@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "$(npm bin)/mocha-phantomjs tests/index.html"
+    "test": "$(npm bin)/mocha-phantomjs tests/index.html",
+	"build": "$(npm bin)/uglifyjs jquery-form-restore.js -c > dist/jquery-form-restore.min.js"
   },
   "author": "Lajos Koszti",
   "license": "MIT",
@@ -15,6 +16,7 @@
     "chai": "^1.10.0",
     "mocha": "^2.0.1",
     "mocha-phantomjs": "^3.5.2",
-    "phantomjs": "^1.9.12"
+    "phantomjs": "^1.9.12",
+    "uglify-js": "^2.4.16"
   }
 }
